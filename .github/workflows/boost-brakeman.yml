@@ -24,3 +24,5 @@ jobs:
         with:
           api_token: ${{ secrets.BOOST_API_TOKEN }}
           registry_module: boostsecurityio/brakeman
+          pre_scan_cmd: sleep 125
+#          scan_timeout: 120 # Default value is 120 seconds
