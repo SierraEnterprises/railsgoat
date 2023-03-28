@@ -1,6 +1,6 @@
 name: BoostSecurity Snyk
 env:
-  SNYK_TOKEN: 130a3a8d-cf45-429d-9070-7fa14f3cc8ef
+  SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
 on:
   workflow_dispatch:
   push:
